@@ -2,7 +2,6 @@
   "name": "bakcend",
   "version": "1.0.0",
   "description": "backend",
-  "type": "module",
   "main": "server.ts",
   "scripts": {
     "test": "test",
