@@ -13,7 +13,7 @@ export const initWsServer = (listener: any, sequelize: Sequelize) => {
   const io = new SocketIO.Server(listener, {
     transports: ["polling", "websocket"],
     cors: {
-      origin: "http://localhost:3000"
+      origin: "*"
     }
   });
   io.use(
